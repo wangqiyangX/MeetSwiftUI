@@ -24,6 +24,8 @@ struct WatchMSMainView: View {
                             Text("Coming soon")
                         case .colors:
                             Text("Coming soon")
+                        case .search:
+                            Text("Search")
                         }
                     } label: {
                         Label(option.name, systemImage: option.symbolName)

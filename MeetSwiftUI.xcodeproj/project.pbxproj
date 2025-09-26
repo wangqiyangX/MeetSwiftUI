@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB235E3C2E86A6ED0085620D /* SwiftCodeView in Frameworks */ = {isa = PBXBuildFile; productRef = FB235E3B2E86A6ED0085620D /* SwiftCodeView */; };
 		FB7B6D692E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FB7B6D5F2E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -103,6 +104,8 @@
 				Shared/MSConfigContainer.swift,
 				Shared/MSDisplayContainer.swift,
 				Shared/MSPreviewContainer.swift,
+				Shared/SwiftCodeView.swift,
+				Shared/SwiftCodeViewModel.swift,
 				Views/MSColors/MSColorsListView.swift,
 				Views/MSModifierDemos/Controls/MSBadgePage.swift,
 				Views/MSModifierDemos/Controls/MSConfirmationDialogPage.swift,
@@ -280,6 +283,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB235E3C2E86A6ED0085620D /* SwiftCodeView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +363,7 @@
 			);
 			name = MeetSwiftUI;
 			packageProductDependencies = (
+				FB235E3B2E86A6ED0085620D /* SwiftCodeView */,
 			);
 			productName = MeetSwiftUI;
 			productReference = FB74B3922E759D8600F08AC1 /* MeetSwiftUI.app */;
@@ -468,6 +473,7 @@
 			mainGroup = FB74B3892E759D8600F08AC1;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				FB235E3A2E86A6ED0085620D /* XCRemoteSwiftPackageReference "SwiftCodeView" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FB74B3932E759D8600F08AC1 /* Products */;
@@ -986,6 +992,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB235E3A2E86A6ED0085620D /* XCRemoteSwiftPackageReference "SwiftCodeView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wangqiyangX/SwiftCodeView.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB235E3B2E86A6ED0085620D /* SwiftCodeView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB235E3A2E86A6ED0085620D /* XCRemoteSwiftPackageReference "SwiftCodeView" */;
+			productName = SwiftCodeView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB74B38A2E759D8600F08AC1 /* Project object */;
 }

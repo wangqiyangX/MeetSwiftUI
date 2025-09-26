@@ -76,6 +76,16 @@ struct MeetSwiftUITabView: View {
                     NavigationOptions.colors.listViewForPage()
                 }
             }
+            Tab(
+                NavigationOptions.search.name,
+                systemImage: NavigationOptions.search.symbolName,
+                value: .search,
+                role: .search
+            ) {
+                NavigationStack {
+                    NavigationOptions.search.listViewForPage()
+                }
+            }
         }
     }
 }

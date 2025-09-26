@@ -12,6 +12,7 @@ enum NavigationOptions: Equatable, Hashable, Identifiable, CaseIterable {
     case modifiers
     case symbols
     case colors
+    case search
 
     static let tabs: [NavigationOptions] = [
         .views, .modifiers, .symbols, .colors,
@@ -27,6 +28,8 @@ enum NavigationOptions: Equatable, Hashable, Identifiable, CaseIterable {
             "Symbols"
         case .colors:
             "Colors"
+        case .search:
+            "Search"
         }
     }
 
@@ -52,6 +55,8 @@ enum NavigationOptions: Equatable, Hashable, Identifiable, CaseIterable {
                 "Colors",
                 comment: "Title for the tab, shown in the sidebar."
             )
+        case .search:
+            return LocalizedStringResource("Search", comment: "")
         }
     }
 
@@ -65,6 +70,8 @@ enum NavigationOptions: Equatable, Hashable, Identifiable, CaseIterable {
             "star.circle"
         case .colors:
             "paintpalette"
+        case .search:
+            "magnifyingglass"
         }
     }
 
@@ -78,6 +85,8 @@ enum NavigationOptions: Equatable, Hashable, Identifiable, CaseIterable {
             MSSymbolsListView()
         case .colors:
             MSColorsListView()
+        case .search:
+            Text("Search")
         }
     }
 }
