@@ -1,0 +1,97 @@
+# Xcode
+#
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+*.xcodeproj/project.xcworkspace
+*.xcuserdata/
+*.xcdebugger/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Xcode automatically generated schemes
+*.xcscheme
+!default.xcscheme
+
+# Swift Package Manager
+#
+.build/
+Packages/
+Package.resolved
+.swiftpm/
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+
+# Carthage
+#
+Carthage/Build/
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+fastlane/readme.md
+
+# Playgrounds
+#
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftUI Previews
+#
+*.preview-thumbnails
+
+# macOS
+#
+.DS_Store
+
+# JetBrains IDEs (if any)
+#
+.idea/
+
+# Temporary files
+#
+*.swp
+*.lock
+*.tmp
+*.bak
+*.orig
+*.revs
+
+# Logs
+#
+*.log
+
+# Certificates & Keys
+#
+*.cer
+*.crt
+*.p12
+*.key
+*.mobileprovision
+
+# Misc
+#
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app
+*.xcconfig
+
+# User-specific
+#
+*.perspectivev3
+*.moved-aside
+
+# SwiftUI Previews derived data
+#
+*.preview-thumbnails
+

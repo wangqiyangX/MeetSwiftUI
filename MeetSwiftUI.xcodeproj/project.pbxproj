@@ -1,0 +1,991 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7B6D692E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FB7B6D5F2E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB74B3A02E759D8800F08AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB74B38A2E759D8600F08AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB74B3912E759D8600F08AC1;
+			remoteInfo = MeetSwiftUI;
+		};
+		FB74B3AA2E759D8800F08AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB74B38A2E759D8600F08AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB74B3912E759D8600F08AC1;
+			remoteInfo = MeetSwiftUI;
+		};
+		FB7B6D672E825D3B00DC7FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB74B38A2E759D8600F08AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7B6D5E2E825D3B00DC7FBA;
+			remoteInfo = "WatchMeetSwiftUI Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBDA68B42E82467D00B75A17 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FB7B6D692E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB74B3922E759D8600F08AC1 /* MeetSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB74B39F2E759D8800F08AC1 /* MeetSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB74B3A92E759D8800F08AC1 /* MeetSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7B6D5F2E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchMeetSwiftUI Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FB7B6D6E2E825F7200DC7FBA /* Exceptions for "MeetSwiftUI" folder in "WatchMeetSwiftUI Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MeetSwiftUITabView.swift,
+				Model/MSConfig.swift,
+				Model/MSContainerType.swift,
+				Model/MSHorizontalSplitViewPage.swift,
+				Model/MSModifiers.swift,
+				Model/MSSignInWithAppleButtonPage.swift,
+				Model/MSSymbols/MSAccessibilitySymbols.swift,
+				Model/MSSymbols/MSArrowsSymbols.swift,
+				Model/MSSymbols/MSAutomotiveSymbols.swift,
+				Model/MSSymbols/MSCameraAndPhotos.swift,
+				Model/MSSymbols/MSCommerceSymbols.swift,
+				Model/MSSymbols/MSCommunicationSymbols.swift,
+				Model/MSSymbols/MSConnectivitySymbols.swift,
+				Model/MSSymbols/MSDevicesSymbols.swift,
+				Model/MSSymbols/MSDrawSymbols.swift,
+				Model/MSSymbols/MSEditingSymbols.swift,
+				Model/MSSymbols/MSFitnessSymbols.swift,
+				Model/MSSymbols/MSGamingSymbols.swift,
+				Model/MSSymbols/MSHealthSymbols.swift,
+				Model/MSSymbols/MSHomeSymbols.swift,
+				Model/MSSymbols/MSHumanSymbols.swift,
+				Model/MSSymbols/MSIndicesSymbols.swift,
+				Model/MSSymbols/MSKeyboardSymbols.swift,
+				Model/MSSymbols/MSMapsSymbols.swift,
+				Model/MSSymbols/MSMathSymbols.swift,
+				Model/MSSymbols/MSMediaSymbols.swift,
+				Model/MSSymbols/MSMulticolorSymbols.swift,
+				Model/MSSymbols/MSNatureSymbols.swift,
+				Model/MSSymbols/MSObjectsAndTools.swift,
+				Model/MSSymbols/MSPrivacyAndSecuritySymbols.swift,
+				Model/MSSymbols/MSShapesSymbols.swift,
+				Model/MSSymbols/MSSymbols.swift,
+				Model/MSSymbols/MSTextFormattingSymbols.swift,
+				Model/MSSymbols/MSTimeSymbols.swift,
+				Model/MSSymbols/MSTransportationSymbols.swift,
+				Model/MSSymbols/MSVariableSymbols.swift,
+				Model/MSSymbols/MSWeatherSymbols.swift,
+				Model/MSSymbols/MSWhatsNewSymbols.swift,
+				Model/MSViews.swift,
+				Model/NavigationOptions.swift,
+				Shared/Constants.swift,
+				Shared/MSConfigContainer.swift,
+				Shared/MSDisplayContainer.swift,
+				Shared/MSPreviewContainer.swift,
+				Views/MSColors/MSColorsListView.swift,
+				Views/MSModifierDemos/Controls/MSBadgePage.swift,
+				Views/MSModifierDemos/Controls/MSConfirmationDialogPage.swift,
+				Views/MSModifierDemos/Controls/MSContextMenuPage.swift,
+				Views/MSModifierDemos/Controls/MSControlSizePage.swift,
+				Views/MSModifierDemos/Controls/MSDefaultFocusPage.swift,
+				Views/MSModifierDemos/Controls/MSFocusedPage.swift,
+				Views/MSModifierDemos/Controls/MSItemProviderPage.swift,
+				Views/MSModifierDemos/Controls/MSPersistentSystemOverlaysPage.swift,
+				Views/MSModifierDemos/Controls/MSPopoverPage.swift,
+				Views/MSModifierDemos/Controls/MSPresentationDragIndicatorPage.swift,
+				Views/MSModifierDemos/Controls/MSSafeAreaInsetPage.swift,
+				Views/MSModifierDemos/Controls/MSSheetPage.swift,
+				Views/MSModifierDemos/Controls/MSSubmitScopePage.swift,
+				Views/MSModifierDemos/Controls/MSToolbarPage.swift,
+				Views/MSModifierDemos/Controls/MSToolbarTitleMenuPage.swift,
+				Views/MSModifierDemos/Effects/MSBlendModePage.swift,
+				Views/MSModifierDemos/Effects/MSBlurPage.swift,
+				Views/MSModifierDemos/Effects/MSBorderPage.swift,
+				Views/MSModifierDemos/Effects/MSBrightnessPage.swift,
+				Views/MSModifierDemos/Effects/MSButtonBorderShapePage.swift,
+				Views/MSModifierDemos/Effects/MSClippedPage.swift,
+				Views/MSModifierDemos/Effects/MSClipShapePage.swift,
+				Views/MSModifierDemos/Effects/MSColorInvertPage.swift,
+				Views/MSModifierDemos/Effects/MSColorMultiplyPage.swift,
+				Views/MSModifierDemos/Effects/MSCompositingGroupPage.swift,
+				Views/MSModifierDemos/Effects/MSContentShapePage.swift,
+				Views/MSModifierDemos/Effects/MSContrastPage.swift,
+				Views/MSModifierDemos/Effects/MSDrawingGroupPage.swift,
+				Views/MSModifierDemos/Effects/MSForegroundStylePage.swift,
+				Views/MSModifierDemos/Effects/MSGrayscalePage.swift,
+				Views/MSModifierDemos/Effects/MSHoverEffectPage.swift,
+				Views/MSModifierDemos/Effects/MSHueRotationPage.swift,
+				Views/MSModifierDemos/Effects/MSluminanceToAlphaPage.swift,
+				Views/MSModifierDemos/Effects/MSMaskPage.swift,
+				Views/MSModifierDemos/Effects/MSMatchedGeometryEffectPage.swift,
+				Views/MSModifierDemos/Effects/MSOpacityPage.swift,
+				Views/MSModifierDemos/Effects/MSPreferredColorSchemePage.swift,
+				Views/MSModifierDemos/Effects/MSProjectionEffectPage.swift,
+				Views/MSModifierDemos/Effects/MSRotation3DEffectPage.swift,
+				Views/MSModifierDemos/Effects/MSSaturationPage.swift,
+				Views/MSModifierDemos/Effects/MSScaleEffectPage.swift,
+				Views/MSModifierDemos/Effects/MSShadowPage.swift,
+				Views/MSModifierDemos/Effects/MSToolbarColorSchemePage.swift,
+				Views/MSModifierDemos/Layout/MSAlignmentGuidePage.swift,
+				Views/MSModifierDemos/Layout/MSAnchorPreferencePage.swift,
+				Views/MSModifierDemos/Layout/MSAspectRatioPage.swift,
+				Views/MSModifierDemos/Layout/MSBackgroundPage.swift,
+				Views/MSModifierDemos/Layout/MSBackgroundPreferencePage.swift,
+				Views/MSModifierDemos/Layout/MSContainerRelativeFramePage.swift,
+				Views/MSModifierDemos/Layout/MSContentMarginsPage.swift,
+				Views/MSModifierDemos/Layout/MSCoordinateSpacePage.swift,
+				Views/MSModifierDemos/Layout/MSDigitalCrownAccessoryPage.swift,
+				Views/MSModifierDemos/Layout/MSFixedSizePage.swift,
+				Views/MSModifierDemos/Layout/MSFramePage.swift,
+				Views/MSModifierDemos/Layout/MSFullScreenCoverPage.swift,
+				Views/MSModifierDemos/Layout/MSGridCellAnchorPage.swift,
+				Views/MSModifierDemos/Layout/MSGridCellColumnsPage.swift,
+				Views/MSModifierDemos/Layout/MSGridCellUnsizedAxes.swift,
+				Views/MSModifierDemos/Layout/MSGridColumnAlignmentPage.swift,
+				Views/MSModifierDemos/Layout/MSHiddenPage.swift,
+				Views/MSModifierDemos/Layout/MSIgnoresSafeAreaPage.swift,
+				Views/MSModifierDemos/Layout/MSLabelsHiddenPage.swift,
+				Views/MSModifierDemos/Layout/MSLayoutPriorityPage.swift,
+				Views/MSModifierDemos/Layout/MSMenuIndicatorPage.swift,
+				Views/MSModifierDemos/Layout/MSNavigationSplitViewColumnWidthPage.swift,
+				Views/MSModifierDemos/Layout/MSOverlayPage.swift,
+				Views/MSModifierDemos/Layout/MSPositionPage.swift,
+				Views/MSModifierDemos/Layout/MSPresentationDetentsPage.swift,
+				Views/MSModifierDemos/MSModifierListView.swift,
+				Views/MSSymbols/MSSymbolDetailsView.swift,
+				Views/MSSymbols/MSSymbolsListView.swift,
+				Views/MSViewDemos/Controls/MSButtonPage.swift,
+				Views/MSViewDemos/Controls/MSColorPickerPage.swift,
+				Views/MSViewDemos/Controls/MSDatePickerPage.swift,
+				Views/MSViewDemos/Controls/MSDisclosureGroupPage.swift,
+				Views/MSViewDemos/Controls/MSEditButtonPage.swift,
+				Views/MSViewDemos/Controls/MSFormPage.swift,
+				Views/MSViewDemos/Controls/MSGaugePage.swift,
+				Views/MSViewDemos/Controls/MSGroupBoxPage.swift,
+				Views/MSViewDemos/Controls/MSLabeledContentPage.swift,
+				Views/MSViewDemos/Controls/MSLabelPage.swift,
+				Views/MSViewDemos/Controls/MSLinkPage.swift,
+				Views/MSViewDemos/Controls/MSListPage.swift,
+				Views/MSViewDemos/Controls/MSMenuPage.swift,
+				Views/MSViewDemos/Controls/MSMultiDatePickerPage.swift,
+				Views/MSViewDemos/Controls/MSNavigationLinkPage.swift,
+				Views/MSViewDemos/Controls/MSNavigationSplitViewPage.swift,
+				Views/MSViewDemos/Controls/MSNavigationStackPage.swift,
+				Views/MSViewDemos/Controls/MSNavigationViewPage.swift,
+				Views/MSViewDemos/Controls/MSOutlineGroupPage.swift,
+				Views/MSViewDemos/Controls/MSPasteButtonPage.swift,
+				Views/MSViewDemos/Controls/MSPickerPage.swift,
+				Views/MSViewDemos/Controls/MSProgressViewPage.swift,
+				Views/MSViewDemos/Controls/MSRenameButtonPage.swift,
+				Views/MSViewDemos/Controls/MSScrollViewPage.swift,
+				Views/MSViewDemos/Controls/MSSectionPage.swift,
+				Views/MSViewDemos/Controls/MSSecureFieldPage.swift,
+				Views/MSViewDemos/Controls/MSShareLinkPage.swift,
+				Views/MSViewDemos/Controls/MSSliderPage.swift,
+				Views/MSViewDemos/Controls/MSStepperPage.swift,
+				Views/MSViewDemos/Controls/MSTablePage.swift,
+				Views/MSViewDemos/Controls/MSTabViewPage.swift,
+				Views/MSViewDemos/Controls/MSTextEditorPage.swift,
+				Views/MSViewDemos/Controls/MSTextFieldPage.swift,
+				Views/MSViewDemos/Controls/MSTextPage.swift,
+				Views/MSViewDemos/Controls/MSTogglePage.swift,
+				Views/MSViewDemos/Layout/MSControlGroupPage.swift,
+				Views/MSViewDemos/Layout/MSDepthStackPage.swift,
+				Views/MSViewDemos/Layout/MSGeometryReaderPage.swift,
+				Views/MSViewDemos/Layout/MSHorizontalStackPage.swift,
+				Views/MSViewDemos/Layout/MSLazyHorizontalGridPage.swift,
+				Views/MSViewDemos/Layout/MSLazyHorizontalStackPage.swift,
+				Views/MSViewDemos/Layout/MSLazyVerticalGridPage.swift,
+				Views/MSViewDemos/Layout/MSLazyVerticalStackPage.swift,
+				Views/MSViewDemos/Layout/MSScrollViewReaderPage.swift,
+				Views/MSViewDemos/Layout/MSSpacerPage.swift,
+				Views/MSViewDemos/Layout/MSVerticalStackPage.swift,
+				Views/MSViewDemos/Layout/MSViewThatFitsPage.swift,
+				Views/MSViewDemos/MSViewsListView.swift,
+				Views/MSViewDemos/Other/MSAsyncImagePage.swift,
+				Views/MSViewDemos/Other/MSCanvasPage.swift,
+				Views/MSViewDemos/Other/MSCapsulePage.swift,
+				Views/MSViewDemos/Other/MSCirclePage.swift,
+				Views/MSViewDemos/Other/MSColorPage.swift,
+				Views/MSViewDemos/Other/MSContainerRelativeShapePage.swift,
+				Views/MSViewDemos/Other/MSContentUnavailableViewPage.swift,
+				Views/MSViewDemos/Other/MSDividerPage.swift,
+				Views/MSViewDemos/Other/MSEllipsePage.swift,
+				Views/MSViewDemos/Other/MSEmptyViewPage.swift,
+				Views/MSViewDemos/Other/MSGroupPage.swift,
+				Views/MSViewDemos/Other/MSImagePage.swift,
+				Views/MSViewDemos/Other/MSPathPage.swift,
+				Views/MSViewDemos/Other/MSRectanglePage.swift,
+				Views/MSViewDemos/Other/MSRoundedRectanglePage.swift,
+				Views/MSViewDemos/Other/MSSettingsLinkPage.swift,
+				Views/MSViewDemos/Other/MSTimelineViewPage.swift,
+				Views/MSViewDemos/Paint/MSAngularGradientPage.swift,
+				Views/MSViewDemos/Paint/MSEllipticalGradientPage.swift,
+				Views/MSViewDemos/Paint/MSLinearGradientPage.swift,
+				Views/MSViewDemos/Paint/MSRadialGradientPage.swift,
+			);
+			target = FB7B6D5E2E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FB74B3942E759D8600F08AC1 /* MeetSwiftUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FB7B6D6E2E825F7200DC7FBA /* Exceptions for "MeetSwiftUI" folder in "WatchMeetSwiftUI Watch App" target */,
+			);
+			path = MeetSwiftUI;
+			sourceTree = "<group>";
+		};
+		FB74B3A22E759D8800F08AC1 /* MeetSwiftUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MeetSwiftUITests;
+			sourceTree = "<group>";
+		};
+		FB74B3AC2E759D8800F08AC1 /* MeetSwiftUIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MeetSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		FB7B6D602E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WatchMeetSwiftUI Watch App";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB74B38F2E759D8600F08AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB74B39C2E759D8800F08AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB74B3A62E759D8800F08AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7B6D5C2E825D3B00DC7FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB74B3892E759D8600F08AC1 = {
+			isa = PBXGroup;
+			children = (
+				FB74B3942E759D8600F08AC1 /* MeetSwiftUI */,
+				FB74B3A22E759D8800F08AC1 /* MeetSwiftUITests */,
+				FB74B3AC2E759D8800F08AC1 /* MeetSwiftUIUITests */,
+				FB7B6D602E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App */,
+				FB74B3CB2E75A96300F08AC1 /* Frameworks */,
+				FB74B3932E759D8600F08AC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB74B3932E759D8600F08AC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB74B3922E759D8600F08AC1 /* MeetSwiftUI.app */,
+				FB74B39F2E759D8800F08AC1 /* MeetSwiftUITests.xctest */,
+				FB74B3A92E759D8800F08AC1 /* MeetSwiftUIUITests.xctest */,
+				FB7B6D5F2E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB74B3CB2E75A96300F08AC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB74B3912E759D8600F08AC1 /* MeetSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB74B3B32E759D8800F08AC1 /* Build configuration list for PBXNativeTarget "MeetSwiftUI" */;
+			buildPhases = (
+				FB74B38E2E759D8600F08AC1 /* Sources */,
+				FB74B38F2E759D8600F08AC1 /* Frameworks */,
+				FB74B3902E759D8600F08AC1 /* Resources */,
+				FBDA68B42E82467D00B75A17 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7B6D682E825D3B00DC7FBA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FB74B3942E759D8600F08AC1 /* MeetSwiftUI */,
+			);
+			name = MeetSwiftUI;
+			packageProductDependencies = (
+			);
+			productName = MeetSwiftUI;
+			productReference = FB74B3922E759D8600F08AC1 /* MeetSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB74B39E2E759D8800F08AC1 /* MeetSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB74B3B62E759D8800F08AC1 /* Build configuration list for PBXNativeTarget "MeetSwiftUITests" */;
+			buildPhases = (
+				FB74B39B2E759D8800F08AC1 /* Sources */,
+				FB74B39C2E759D8800F08AC1 /* Frameworks */,
+				FB74B39D2E759D8800F08AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB74B3A12E759D8800F08AC1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FB74B3A22E759D8800F08AC1 /* MeetSwiftUITests */,
+			);
+			name = MeetSwiftUITests;
+			packageProductDependencies = (
+			);
+			productName = MeetSwiftUITests;
+			productReference = FB74B39F2E759D8800F08AC1 /* MeetSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB74B3A82E759D8800F08AC1 /* MeetSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB74B3B92E759D8800F08AC1 /* Build configuration list for PBXNativeTarget "MeetSwiftUIUITests" */;
+			buildPhases = (
+				FB74B3A52E759D8800F08AC1 /* Sources */,
+				FB74B3A62E759D8800F08AC1 /* Frameworks */,
+				FB74B3A72E759D8800F08AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB74B3AB2E759D8800F08AC1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FB74B3AC2E759D8800F08AC1 /* MeetSwiftUIUITests */,
+			);
+			name = MeetSwiftUIUITests;
+			packageProductDependencies = (
+			);
+			productName = MeetSwiftUIUITests;
+			productReference = FB74B3A92E759D8800F08AC1 /* MeetSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FB7B6D5E2E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7B6D6C2E825D3B00DC7FBA /* Build configuration list for PBXNativeTarget "WatchMeetSwiftUI Watch App" */;
+			buildPhases = (
+				FB7B6D5B2E825D3B00DC7FBA /* Sources */,
+				FB7B6D5C2E825D3B00DC7FBA /* Frameworks */,
+				FB7B6D5D2E825D3B00DC7FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FB7B6D602E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App */,
+			);
+			name = "WatchMeetSwiftUI Watch App";
+			packageProductDependencies = (
+			);
+			productName = "WatchMeetSwiftUI Watch App";
+			productReference = FB7B6D5F2E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB74B38A2E759D8600F08AC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					FB74B3912E759D8600F08AC1 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					FB74B39E2E759D8800F08AC1 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = FB74B3912E759D8600F08AC1;
+					};
+					FB74B3A82E759D8800F08AC1 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = FB74B3912E759D8600F08AC1;
+					};
+					FB7B6D5E2E825D3B00DC7FBA = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = FB74B38D2E759D8600F08AC1 /* Build configuration list for PBXProject "MeetSwiftUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB74B3892E759D8600F08AC1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FB74B3932E759D8600F08AC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB74B3912E759D8600F08AC1 /* MeetSwiftUI */,
+				FB74B39E2E759D8800F08AC1 /* MeetSwiftUITests */,
+				FB74B3A82E759D8800F08AC1 /* MeetSwiftUIUITests */,
+				FB7B6D5E2E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB74B3902E759D8600F08AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB74B39D2E759D8800F08AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB74B3A72E759D8800F08AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7B6D5D2E825D3B00DC7FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB74B38E2E759D8600F08AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB74B39B2E759D8800F08AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB74B3A52E759D8800F08AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7B6D5B2E825D3B00DC7FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB74B3A12E759D8800F08AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB74B3912E759D8600F08AC1 /* MeetSwiftUI */;
+			targetProxy = FB74B3A02E759D8800F08AC1 /* PBXContainerItemProxy */;
+		};
+		FB74B3AB2E759D8800F08AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB74B3912E759D8600F08AC1 /* MeetSwiftUI */;
+			targetProxy = FB74B3AA2E759D8800F08AC1 /* PBXContainerItemProxy */;
+		};
+		FB7B6D682E825D3B00DC7FBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = FB7B6D5E2E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App */;
+			targetProxy = FB7B6D672E825D3B00DC7FBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB74B3B12E759D8800F08AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3XN8RD2554;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB74B3B22E759D8800F08AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3XN8RD2554;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FB74B3B42E759D8800F08AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XN8RD2554;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqiyang.MeetSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		FB74B3B52E759D8800F08AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XN8RD2554;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqiyang.MeetSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		FB74B3B72E759D8800F08AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XN8RD2554;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqiyang.MeetSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeetSwiftUI";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		FB74B3B82E759D8800F08AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XN8RD2554;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqiyang.MeetSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeetSwiftUI";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		FB74B3BA2E759D8800F08AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XN8RD2554;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqiyang.MeetSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = MeetSwiftUI;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		FB74B3BB2E759D8800F08AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XN8RD2554;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqiyang.MeetSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = MeetSwiftUI;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		FB7B6D6A2E825D3B00DC7FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XN8RD2554;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchMeetSwiftUI;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.wangqiyang.MeetSwiftUI;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqiyang.MeetSwiftUI.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		FB7B6D6B2E825D3B00DC7FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XN8RD2554;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchMeetSwiftUI;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.wangqiyang.MeetSwiftUI;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqiyang.MeetSwiftUI.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB74B38D2E759D8600F08AC1 /* Build configuration list for PBXProject "MeetSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB74B3B12E759D8800F08AC1 /* Debug */,
+				FB74B3B22E759D8800F08AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB74B3B32E759D8800F08AC1 /* Build configuration list for PBXNativeTarget "MeetSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB74B3B42E759D8800F08AC1 /* Debug */,
+				FB74B3B52E759D8800F08AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB74B3B62E759D8800F08AC1 /* Build configuration list for PBXNativeTarget "MeetSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB74B3B72E759D8800F08AC1 /* Debug */,
+				FB74B3B82E759D8800F08AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB74B3B92E759D8800F08AC1 /* Build configuration list for PBXNativeTarget "MeetSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB74B3BA2E759D8800F08AC1 /* Debug */,
+				FB74B3BB2E759D8800F08AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7B6D6C2E825D3B00DC7FBA /* Build configuration list for PBXNativeTarget "WatchMeetSwiftUI Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7B6D6A2E825D3B00DC7FBA /* Debug */,
+				FB7B6D6B2E825D3B00DC7FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB74B38A2E759D8600F08AC1 /* Project object */;
+}
