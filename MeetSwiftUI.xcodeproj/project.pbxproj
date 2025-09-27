@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB235E3C2E86A6ED0085620D /* SwiftCodeView in Frameworks */ = {isa = PBXBuildFile; productRef = FB235E3B2E86A6ED0085620D /* SwiftCodeView */; };
+		FB7598E52E88136700AF9DC9 /* SwiftCodeView in Frameworks */ = {isa = PBXBuildFile; productRef = FB7598E42E88136700AF9DC9 /* SwiftCodeView */; };
 		FB7B6D692E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FB7B6D5F2E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -305,6 +306,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7598E52E88136700AF9DC9 /* SwiftCodeView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +434,7 @@
 			);
 			name = "WatchMeetSwiftUI Watch App";
 			packageProductDependencies = (
+				FB7598E42E88136700AF9DC9 /* SwiftCodeView */,
 			);
 			productName = "WatchMeetSwiftUI Watch App";
 			productReference = FB7B6D5F2E825D3B00DC7FBA /* WatchMeetSwiftUI Watch App.app */;
@@ -1006,6 +1009,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		FB235E3B2E86A6ED0085620D /* SwiftCodeView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB235E3A2E86A6ED0085620D /* XCRemoteSwiftPackageReference "SwiftCodeView" */;
+			productName = SwiftCodeView;
+		};
+		FB7598E42E88136700AF9DC9 /* SwiftCodeView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FB235E3A2E86A6ED0085620D /* XCRemoteSwiftPackageReference "SwiftCodeView" */;
 			productName = SwiftCodeView;

@@ -104,7 +104,7 @@ struct MSSymbolsListView: View {
         #if os(watchOS)
             .automatic
         #else
-            .secondaryAction
+            .primaryAction
         #endif
     }
 
@@ -128,7 +128,7 @@ struct MSSymbolsListView: View {
                         ],
                         spacing: 20
                     ) {
-                        ForEach(filteredSymbols, id: \.self) {
+                        ForEach(selectedSymbolsCategory.symbols, id: \.self) {
                             symbol in
                             Image(systemName: symbol)
                                 .font(.system(size: 32))
@@ -162,7 +162,7 @@ struct MSSymbolsListView: View {
                 }
             case .list:
                 List {
-                    ForEach(filteredSymbols, id: \.self) {
+                    ForEach(selectedSymbolsCategory.symbols, id: \.self) {
                         symbol in
                         NavigationLink {
                             MSSymbolDetailsView(symbol: symbol)
@@ -177,7 +177,6 @@ struct MSSymbolsListView: View {
             }
         }
         .navigationTitle("SF Symbols")
-        .searchable(text: $searchText)
         .toolbar {
             ToolbarItemGroup(placement: toolbarPlacement) {
                 Picker("Weight", selection: $selectedFontWeight) {
@@ -209,6 +208,6 @@ struct MSSymbolsListView: View {
 #Preview {
     NavigationStack {
         MSSymbolsListView()
-            .frame(width: 400)
+            .frame(width: 600)
     }
 }

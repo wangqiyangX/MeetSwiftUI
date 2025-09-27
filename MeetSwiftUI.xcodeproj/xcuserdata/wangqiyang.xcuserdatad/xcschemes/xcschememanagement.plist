@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>WatchMeetSwiftUI Watch App.xcscheme_^#shared#^_</key>
 		<dict>
@@ -30,6 +30,11 @@
 			<true/>
 		</dict>
 		<key>FB74B3A82E759D8800F08AC1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB7B6D5E2E825D3B00DC7FBA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
