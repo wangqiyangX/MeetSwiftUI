@@ -1,5 +1,5 @@
 //
-//  MSSymbolsListView.swift
+//  MSSymbolsView.swift
 //  MeetSwiftUI
 //
 //  Created by wangqiyang on 2025/9/15.
@@ -93,12 +93,14 @@ enum MSLayout: CaseIterable {
     }
 }
 
-struct MSSymbolsListView: View {
+struct MSSymbolsView: View {
     @State private var selectedSymbolsCategory: MSSymbols = .whatsNew
     @State private var selectedFontWeight: MSFontWeight = .regular
     @State private var selectedLayout: MSLayout = .grid
     @State private var selectedSymbol: String?
     @State private var searchText: String = ""
+
+    @Environment(MSConfig.self) private var config
 
     var toolbarPlacement: ToolbarItemPlacement {
         #if os(watchOS)
@@ -116,8 +118,10 @@ struct MSSymbolsListView: View {
         }
         return selectedSymbolsCategory.symbols
     }
-    
+
     var body: some View {
+        @Bindable var config = config
+
         Group {
             switch selectedLayout {
             case .grid:
@@ -139,7 +143,10 @@ struct MSSymbolsListView: View {
                                         .overlay {
                                             RoundedRectangle(cornerRadius: 20)
                                                 .fill(.clear)
-                                                .if(selectedSymbol == symbol) {
+                                                .if(
+                                                    config.selectedSymbol
+                                                        == symbol
+                                                ) {
                                                     view in
                                                     view
                                                         .stroke(
@@ -150,18 +157,18 @@ struct MSSymbolsListView: View {
                                         }
                                 }
                                 .onTapGesture {
-                                    selectedSymbol = symbol
+                                    config.selectedSymbol = symbol
                                 }
                         }
                     }
                 }
                 .contentMargins(20, for: .scrollContent)
-                .navigationDestination(item: $selectedSymbol) { symbol in
+                .navigationDestination(item: $config.selectedSymbol) { symbol in
                     MSSymbolDetailsView(symbol: symbol)
                         .navigationTitle(symbol)
                 }
             case .list:
-                List {
+                List(selection: $config.selectedSymbol) {
                     ForEach(selectedSymbolsCategory.symbols, id: \.self) {
                         symbol in
                         NavigationLink {
@@ -207,7 +214,7 @@ struct MSSymbolsListView: View {
 
 #Preview {
     NavigationStack {
-        MSSymbolsListView()
+        MSSymbolsView()
             .frame(width: 600)
     }
 }

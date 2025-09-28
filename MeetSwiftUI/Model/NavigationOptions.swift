@@ -82,9 +82,9 @@ enum NavigationOptions: Equatable, Hashable, Identifiable, CaseIterable {
         case .modifiers:
             MSModifierListView()
         case .symbols:
-            MSSymbolsListView()
+            MSSymbolsView()
         case .colors:
-            MSColorsListView()
+            MSColorsView()
         case .search:
             Text("Search")
         }

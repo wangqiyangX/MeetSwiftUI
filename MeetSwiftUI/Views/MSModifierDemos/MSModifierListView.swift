@@ -18,21 +18,24 @@ struct MSModifierListView: View {
     @ViewBuilder
     func sections() -> some View {
         Section("Controls", isExpanded: $ControlsSectionIsExpanded) {
-            ForEach(MSModifiers.controls) { modifier in
+            ForEach(MSModifier.controls.sorted(by: { $0.name < $1.name })) {
+                modifier in
                 NavigationLink(value: modifier) {
                     Text(modifier.name)
                 }
             }
         }
         Section("Effects", isExpanded: $EffectsSectionIsExpanded) {
-            ForEach(MSModifiers.effects) { modifier in
+            ForEach(MSModifier.effects.sorted(by: { $0.name < $1.name })) {
+                modifier in
                 NavigationLink(value: modifier) {
                     Text(modifier.name)
                 }
             }
         }
         Section("Layout", isExpanded: $LayoutSectionIsExpanded) {
-            ForEach(MSModifiers.layout) { modifier in
+            ForEach(MSModifier.layout.sorted(by: { $0.name < $1.name })) {
+                modifier in
                 NavigationLink(value: modifier) {
                     Text(modifier.name)
                 }

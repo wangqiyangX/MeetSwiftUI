@@ -18,28 +18,28 @@ struct MSViewsListView: View {
     @ViewBuilder
     func sections() -> some View {
         Section("Controls", isExpanded: $ControlsSectionIsExpanded) {
-            ForEach(MSViews.controls) { view in
+            ForEach(MSViews.controls.sorted(by: { $0.name < $1.name })) { view in
                 NavigationLink(value: view) {
                     Text(view.name)
                 }
             }
         }
         Section("Layout", isExpanded: $LayoutSectionIsExpanded) {
-            ForEach(MSViews.layout) { view in
+            ForEach(MSViews.layout.sorted(by: { $0.name < $1.name })) { view in
                 NavigationLink(value: view) {
                     Text(view.name)
                 }
             }
         }
         Section("Paint", isExpanded: $PaintSectionIsExpanded) {
-            ForEach(MSViews.paint) { view in
+            ForEach(MSViews.paint.sorted(by: { $0.name < $1.name })) { view in
                 NavigationLink(value: view) {
                     Text(view.name)
                 }
             }
         }
         Section("Other", isExpanded: $OtherSectionIsExpanded) {
-            ForEach(MSViews.other) { view in
+            ForEach(MSViews.other.sorted(by: { $0.name < $1.name })) { view in
                 NavigationLink(value: view) {
                     Text(view.name)
                 }

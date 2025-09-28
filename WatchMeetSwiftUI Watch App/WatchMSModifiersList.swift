@@ -9,7 +9,7 @@ import SwiftUI
 
 struct WatchMSModifiersList: View {
     @ViewBuilder
-    func MSNavigationLink(_ modifier: MSModifiers) -> some View {
+    func MSNavigationLink(_ modifier: MSModifier) -> some View {
         NavigationLink {
             modifier.detailView()
         } label: {
@@ -19,17 +19,17 @@ struct WatchMSModifiersList: View {
     var body: some View {
         List {
             Section("Controls") {
-                ForEach(MSModifiers.controls) { modifier in
+                ForEach(MSModifier.controls) { modifier in
                     MSNavigationLink(modifier)
                 }
             }
             Section("Effects") {
-                ForEach(MSModifiers.effects) { modifier in
+                ForEach(MSModifier.effects) { modifier in
                     MSNavigationLink(modifier)
                 }
             }
             Section("Layout") {
-                ForEach(MSModifiers.layout) { modifier in
+                ForEach(MSModifier.layout) { modifier in
                     MSNavigationLink(modifier)
                 }
             }

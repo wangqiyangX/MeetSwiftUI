@@ -1,5 +1,5 @@
 //
-//  MSModifiers.swift
+//  MSModifier.swift
 //  MeetSwiftUI
 //
 //  Created by wangqiyang on 2025/9/14.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum MSModifiers: Equatable, Identifiable {
+enum MSModifier: Equatable, Identifiable {
     #if !os(watchOS)
         case badge
         case popover
@@ -69,7 +69,41 @@ enum MSModifiers: Equatable, Identifiable {
     #if os(watchOS)
         case digitalCrownAccessory
     #endif
+    case fixedSize
+    case frame
+    #if !os(macOS)
+        case fullScreenCover
+    #endif
+    case gridCellAnchor
+    case gridCellColumns
+    case gridCellUnsizedAxes
+    case gridColumnAlignment
+    case hidden
     case ingoreSafeArea
+    case labelsHidden
+    case layoutPriority
+    #if !os(watchOS)
+        case menuInicator
+    #endif
+    case menuOrder
+    case navigationSpliViewColumnWidth
+    case overlay
+    case overlayPreferenceValue
+    case padding
+    case position
+    case presentationDetents
+    case safeAreaPadding
+    case scaledToFill
+    case scaledToFit
+    case scenePadding
+    case scrollContentBackground
+    case scrollDismissesKeyboard
+    case scrollIndicators
+    case statusBarHidden
+    case toolbarBackground
+    case toolbarRole
+    case transformAnchorPreference
+    case zIndex
 
     var id: Self { self }
 
@@ -165,27 +199,91 @@ enum MSModifiers: Equatable, Identifiable {
         case .toolbarColorScheme:
             return "Toolbar Color Scheme"
         case .alignmentGuide:
-            return "alignmentGuide"
+            return "AlignmentGuide"
         case .anchorPreference:
-            return "anchorPreference"
+            return "AnchorPreference"
         case .aspectRatio:
-            return "aspectRatio"
+            return "AspectRatio"
         case .background:
-            return "background"
+            return "Background"
         case .backgroundPreference:
-            return "backgroundPreference"
+            return "Background Preference"
         case .containerRelativeFrame:
-            return "containerRelativeFrame"
+            return "Container Relative Frame"
         case .contentMargins:
-            return "contentMargins"
+            return "Content Margins"
         case .coordinateSpace:
-            return "coordinateSpace"
+            return "Coordinate Space"
         #if os(watchOS)
             case .digitalCrownAccessory:
-                return "digitalCrownAccessory"
+                return "DigitalCrown Accessory"
         #endif
+        case .fixedSize:
+            return "Fixed Size"
+        case .frame:
+            return "Frame"
+        #if !os(macOS)
+            case .fullScreenCover:
+                return "FullScreen Cover"
+        #endif
+        case .gridCellAnchor:
+            return "Grid Cell Anchor"
+        case .gridCellColumns:
+            return "Grid Cell Columns"
+        case .gridCellUnsizedAxes:
+            return "Grid Cell Unsized Axes"
+        case .gridColumnAlignment:
+            return "Grid Column Alignment"
+        case .hidden:
+            return "Hidden"
         case .ingoreSafeArea:
-            return "ingoreSafeArea"
+            return "Ingore Safe Area"
+        case .labelsHidden:
+            return "Labels Hidden"
+        case .layoutPriority:
+            return "Layout Priority"
+        #if !os(watchOS)
+            case .menuInicator:
+                return "Menu Inicator"
+        #endif
+        case .menuOrder:
+            return "Menu Order"
+        case .navigationSpliViewColumnWidth:
+            return "NavigationSpliView Column Width"
+        case .overlay:
+            return "Overlay"
+        case .overlayPreferenceValue:
+            return "Overlay Preference Value"
+        case .padding:
+            return "Padding"
+        case .position:
+            return "Position"
+        case .presentationDetents:
+            return "Presentation Detents"
+        case .safeAreaPadding:
+            return "Safe Area Padding"
+        case .scaledToFill:
+            return "Scaled to Fill"
+        case .scaledToFit:
+            return "Scaled to Fit"
+        case .scenePadding:
+            return "Scene Padding"
+        case .scrollContentBackground:
+            return "Scroll Content Background"
+        case .scrollDismissesKeyboard:
+            return "Scroll Dismisses Keyboard"
+        case .scrollIndicators:
+            return "Scroll Indicators"
+        case .statusBarHidden:
+            return "Status Bar Hidden"
+        case .toolbarBackground:
+            return "Toolbar Background"
+        case .toolbarRole:
+            return "Toolbar Role"
+        case .transformAnchorPreference:
+            return "Transform Anchor Preference"
+        case .zIndex:
+            return "Z Index"
         }
     }
 
@@ -299,22 +397,85 @@ enum MSModifiers: Equatable, Identifiable {
             case .digitalCrownAccessory:
                 MSDigitalCrownAccessoryPage()
         #endif
+        case .fixedSize:
+            MSFixedSizePage()
+        case .frame:
+            MSFramePage()
+        #if !os(macOS)
+            case .fullScreenCover:
+                MSFullScreenCoverPage()
+        #endif
+        case .gridCellAnchor:
+            MSGridCellAnchorPage()
+        case .gridCellColumns:
+            MSGridCellColumnsPage()
+        case .gridCellUnsizedAxes:
+            MSGridCellUnsizedAxes()
+        case .gridColumnAlignment:
+            MSGridColumnAlignmentPage()
+        case .hidden:
+            MSHiddenPage()
         case .ingoreSafeArea:
             MSIgnoresSafeAreaPage()
+        case .labelsHidden:
+            MSLabelsHiddenPage()
+        case .layoutPriority:
+            MSLayoutPriorityPage()
+        #if !os(watchOS)
+            case .menuInicator:
+                MSMenuIndicatorPage()
+        #endif
+        case .menuOrder:
+            MSMenuOrderPage()
+        case .navigationSpliViewColumnWidth:
+            MSNavigationSplitViewColumnWidthPage()
+        case .overlay:
+            MSOverlayPage()
+        case .overlayPreferenceValue:
+            MSOverlayPreferenceValuePage()
+        case .padding:
+            MSPaddingPage()
+        case .position:
+            MSPositionPage()
+        case .presentationDetents:
+            MSPresentationDetentsPage()
+        case .safeAreaPadding:
+            MSSafeAreaPaddingPage()
+        case .scaledToFill:
+            MSScaledToFillPage()
+        case .scaledToFit:
+            MSScaledToFitPage()
+        case .scenePadding:
+            MSScenePaddingPage()
+        case .scrollContentBackground:
+            MSScrollContentBackgroundPage()
+        case .scrollDismissesKeyboard:
+            MSScrollDismissesKeyboardPage()
+        case .scrollIndicators:
+            MSScrollIndicatorsPage()
+        case .statusBarHidden:
+            MSStatusBarHiddenPage()
+        case .toolbarBackground:
+            MSToolbarBackgroundPage()
+        case .toolbarRole:
+            MSToolbarRolePage()
+        case .transformAnchorPreference:
+            MSTransformAnchorPreferencePage()
+        case .zIndex:
+            MSZIndexPage()
         }
     }
 }
 
-extension MSModifiers {
-    static var controls: [MSModifiers] {
-        var temp: [MSModifiers] = [
+extension MSModifier {
+    static var controls: [MSModifier] {
+        var temp: [MSModifier] = [
             .confirmationDialog,
             .controlSize,
             .defaultFocus,
             .focused,
             .itemProvider,
             .persistentSystemOverlays,
-
             .presentationDragIndicator,
             .safeAreaInset,
             .sheet,
@@ -330,8 +491,8 @@ extension MSModifiers {
 
         return temp
     }
-    static var effects: [MSModifiers] {
-        var temp: [MSModifiers] = [
+    static var effects: [MSModifier] {
+        var temp: [MSModifier] = [
             .blendMode,
             .blur,
             .border,
@@ -370,8 +531,8 @@ extension MSModifiers {
         return temp
     }
 
-    static var layout: [MSModifiers] {
-        var temp: [MSModifiers] = [
+    static var layout: [MSModifier] {
+        var temp: [MSModifier] = [
             .alignmentGuide,
             .anchorPreference,
             .aspectRatio,
@@ -380,11 +541,44 @@ extension MSModifiers {
             .containerRelativeFrame,
             .contentMargins,
             .coordinateSpace,
+            .fixedSize,
+            .frame,
+            .gridCellAnchor,
+            .gridCellColumns,
+            .gridCellUnsizedAxes,
+            .gridColumnAlignment,
+            .hidden,
             .ingoreSafeArea,
+            .labelsHidden,
+            .layoutPriority,
+            .menuOrder,
+            .navigationSpliViewColumnWidth,
+            .overlay,
+            .overlayPreferenceValue,
+            .padding,
+            .position,
+            .presentationDetents,
+            .safeAreaPadding,
+            .scaledToFill,
+            .scaledToFit,
+            .scenePadding,
+            .scrollContentBackground,
+            .scrollDismissesKeyboard,
+            .scrollIndicators,
+            .toolbarBackground,
         ]
 
+        #if !os(watchOS)
+            temp.append(.menuInicator)
+        #endif
+        #if !os(macOS)
+            temp.append(.fullScreenCover)
+        #endif
         #if os(watchOS)
             temp.append(.digitalCrownAccessory)
+        #endif
+        #if os(iOS)
+            temp.append(.statusBarHidden)
         #endif
 
         return temp

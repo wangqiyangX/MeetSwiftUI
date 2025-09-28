@@ -43,7 +43,7 @@ struct MeetSwiftUITabView: View {
                 NavigationStack {
                     NavigationOptions.modifiers.listViewForPage()
                         #if os(iOS) || os(watchOS)
-                            .navigationDestination(for: MSModifiers.self) {
+                            .navigationDestination(for: MSModifier.self) {
                                 view in
                                 view.detailView()
                                 .navigationTitle(view.name)

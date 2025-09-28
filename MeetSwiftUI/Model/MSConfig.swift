@@ -20,8 +20,12 @@ final class MSConfig {
         didSet {
             selectedMSViews = nil
             selectedMSModifiers = nil
+            selectedSymbol = nil
+            selectedColor = nil
         }
     }
     var selectedMSViews: MSViews?
-    var selectedMSModifiers: MSModifiers?
+    var selectedMSModifiers: MSModifier?
+    var selectedSymbol: String?
+    var selectedColor: MSColors?
 }
